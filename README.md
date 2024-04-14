@@ -39,11 +39,7 @@ This script monitors the `/etc/passwd` file for any new user accounts added to t
     crontab -e */5 * * * * /bin/bash /root/check/newusercheck.sh 1>/dev/null 2>/dev/null
     ```
 
-    Add the following line to run the script every 5 minutes:
-
-    ```cron
-    */5 * * * * /bin/bash /path/to/newusercheck.sh 1>/dev/null 2>/dev/null
-    ```
+ 
 
 ## Usage
 
